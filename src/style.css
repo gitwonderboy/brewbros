@@ -1,0 +1,27 @@
+@import url(./assets/css/style.css);
+@import url(./assets/css/mediaquery.css);
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.nav-bar.nav-sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #33211d;
+  z-index: 999;
+}
+
+.carousel-item-one{
+  background-image: url("/images/coffee_bg.jpg");
+  background-size: cover;
+}
+
+.carousel-item-two{
+  background-image: url("./assets/images/carousel-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

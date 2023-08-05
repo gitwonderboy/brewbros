@@ -1,0 +1,60 @@
+@media screen and (max-width: 640px) {
+    .carousel-item {
+        height: 83vh;
+    }
+
+    .carousel-item img {
+        height: 83vh;
+    }
+
+    .cupsmoke{
+        left:-250px;
+    }
+}
+
+@media (min-width: 640px) {
+    .carousel-item {
+        height: 83vh;
+    }
+
+    .carousel-item img {
+        height: 83vh;
+    }
+    .cupsmoke{
+        left:-250px;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-item {
+        height: 100vh;
+    }
+
+    .carousel-item img {
+        height: 100vh;
+    }
+    .cupsmoke{
+        left:-220px;
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1024px) {
+    .cupsmoke{
+        left:-190px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .carousel-item img {
+        width: 100%;
+      }
+
+}
+
+@media (min-width: 1536px) {
+    .cupsmoke{
+        left:-150px;
+    }
+}
